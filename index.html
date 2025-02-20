@@ -29,7 +29,7 @@
         #myButton {
             position: absolute;
             top: 25%;
-            left: 30%;
+            left: 10%;
             transform: translate(-50%, -50%);
             padding: 10px 50px;
             background-color:#50100A;
@@ -37,7 +37,7 @@
          #myButton1 {
             position: absolute;
             top: 35%;
-            left: 30%;
+            left: 10%;
             transform: translate(-50%, -50%);
             padding: 10px 50px;
             background-color:#073B3A;
@@ -45,7 +45,7 @@
         #myButton2 {
             position: absolute;
             top: 45%;
-            left: 30%;
+            left: 10%;
             transform: translate(-50%, -50%);
             padding: 10px 50px;
             background-color:#Ffff00;
@@ -116,9 +116,9 @@ def fun(event):
             input2 = document.getElementById('input2').value
             context.font = "15px Arial"
             context.fillStyle = "WHITE"
-            context.fillText("first number  "+input1, 862, 380)
-            context.fillText("Second number  "+input2, 862, 400)
-            context.fillText("Answer  " +str(int(input1)+int(input2)),862,430)
+            context.fillText("first number  "+input1, 600, 380)
+            context.fillText("Second number  "+input2, 600, 400)
+            context.fillText("Answer  " +str(int(input1)+int(input2)),600,430)
     canvas.addEventListener("click", on_canvas_click)
     </script>
 </body>
